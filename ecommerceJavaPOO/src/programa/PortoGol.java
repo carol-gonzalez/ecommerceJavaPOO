@@ -239,7 +239,7 @@ public class PortoGol {
 						
 						for(Produto comprados : carrinho) {
 							if(comprados.getEstoque() != 0) {
-								System.out.printf("│ │ %s │ %s  │  %d   │  %.2f   │ %.2f    │ %.2f     │ │\n",comprados.getCodigo(),comprados.getNome(),comprados.getEstoque(),comprados.getValor(),(comprados.getValor()*comprados.getEstoque()),(((comprados.getValor()*comprados.getEstoque())/ 100)*9));
+								System.out.printf("│ │ %s │ %s  │  %d   │  %.2f  │ %.2f   │ %.2f    │ │\n",comprados.getCodigo(),comprados.getNome(),comprados.getEstoque(),comprados.getValor(),(comprados.getValor()*comprados.getEstoque()),(((comprados.getValor()*comprados.getEstoque())/ 100)*9));
 						
 							}
 						}
